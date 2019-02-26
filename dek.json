@@ -1,0 +1,632 @@
+{
+    "Hit": {
+        "Cards": [
+        {
+            "Slashing": "Long Gash: Normal Damage and 8 bleed. A successful Heal check cuts the bleeding in half, rather than ending it.",
+            "Bludgeoning": "Crushed Trachea: Normal Damage, and target cannot breathe or speak. DC 20 Heal check ends condition.",
+            "Piercing": "Elbow Pierced: Double Damage, and target drops whatever is being held (1 item).",
+            "Magic": "Vulnerability: Double Damage and if the spell did elemental Damage, the target is now vulnerable to that element for 3 rounds."
+        },        {
+            "Slashing": "Severed Spine: Double Damage and 3d6 Dexterity Damage (Fortitude halves).",
+            "Bludgeoning": "Crushed Intestines: Normal Damage and 1d4 Constitution bleed (DC 15 Fortitude negates, save each round).",
+            "Piercing": "Lodged In The Bone: Double Damage and 2 Bleed. This bleed requires a DC 20 Heal check to stop.",
+            "Magic": "I Love You, Man: Normal Damage, and target is Charmed for 3 rounds (Will negates)."
+        },
+        {
+            "Slashing": "Pain And Simple: Double Damage, and 2d6 nonlethal Damage.",
+            "Bludgeoning": "Bone Masher: Normal Damage and either 1d3 Dexterity Damage and halve speed (Leg) or 1d3 Strength Damage (Arm). Limb is useless until healed.",
+            "Piercing": "Punctured Lung: Double Damage and target begins to drown 3 rounds later. DC 20 Fortitude save each round to end effect.",
+            "Magic": "Hypnotic Link: Double Damage and you may give the target 1 Suggestion (As the spell, Will negates."
+        },
+        {
+            "Slashing": "Rupture Abdominal Cavity: Double Damage and 1 Constitution Bleed.",
+            "Bludgeoning": "Collapsed Lung: Normal Damage and the target is Staggered for 1d6 rounds.",
+            "Piercing": "Nerve Cluster: Normal Damage and target is Stunned for 1d6 rounds (Fortitude save each round to act).",
+            "Magic": "Transposition: Double Damage and you and the target switch places."
+        },
+        {
+            "Slashing": "Lean Into The Blow: Triple Damage, but you drop your weapon.",
+            "Bludgeoning": "Ruptured Spleen: Normal Damage and 1d6 Bleed. This bleed can only be cured with Magic.",
+            "Piercing": "Muscle Severed: Normal Damage and 1d6 Dexterity and 1d6 Strength Damage.",
+            "Magic": "Funny Bone: Double Damage and target spends 1 round laughing (As Hideous Laughter spell, Will negates)."
+        },
+        {
+            "Slashing": "Surprise Opening: Double Damage and one free attack against the target with a -5 penalty.",
+            "Bludgeoning": "Crunch: Double Damage and target is Nauseated for 1 round (Fortitude negates).",
+            "Piercing": "Forearm Piercing: Double Damage and target is Disarmed.",
+            "Magic": "Allergic Reaction: Double Damage and 1d4 Damage to a random ability score."
+        },
+        {
+            "Slashing": "Across The Eyes: Normal Damage and target is permanently Blinded (Reflex negates).",
+            "Bludgeoning": "Pimp Slap: Normal Damage and target Dazed for 1d4 rounds.",
+            "Piercing": "Cheek Pierced: Normal Damage and 1d4 Bleed. Target gains 50% spell failure chance for verbal spells until healed.",
+            "Magic": "Turned Around: Double Damage and target can take only one move or standard action next round."
+        },
+        {
+            "Slashing": "Nerve Slice: Double Damage and target can take only one move or standard action next round.",
+            "Bludgeoning": "Broken Ribs: Double Damage and target cannot heal naturally for 1d4 days.",
+            "Piercing": "Spinal Tap: Normal Damage and -4 penalty on attack rolls, skill checks, and ability checks for 1d4 rounds.",
+            "Magic": "Arcane Blast: Double Damage and 2d6 random energy Damage (Reflex halves)."
+        },
+        {
+            "Slashing": "We're Got A Bleeder: Normal Damage and 2d6 Bleed.",
+            "Bludgeoning": "Nighty Night: Normal Damage and target is Unconscious for 1d4 rounds (Fortitude negates).",
+            "Piercing": "Painful Poke: Double Damage and target can take only one move or standard action next round.",
+            "Magic": "Siren Song: Double Damage or Triple Damage to Giants, Humanoids, and Monstrous Humanoids."
+        },
+        {
+            "Slashing": "Armor Damage: Double Damage and normal Damage to target's armor.",
+            "Bludgeoning": "Terrible Bruise: Double Damage and 2d6 Nonlethal Damage.",
+            "Piercing": "Knockback: Double Damage and target is pushed 1d6 squares directly away.",
+            "Magic": "Draining Spell: Double Damage and target randomly loses one spell or one use of a spell-like ability."
+        },
+        {
+            "Slashing": "Terrible Gash: Double Damage and 1 Charisma Drain.",
+            "Bludgeoning": "My Teef!: Normal Damage and 1 Constitution Damage. Target loses bite, gains 20% spell failure chance for verbal spells.",
+            "Piercing": "Bleeder: Double Damage and 1d6 Bleed.",
+            "Magic": "Excruciating: Normal Damage and target is Sickened for 1d6 rounds."
+        },
+        {
+            "Slashing": "Gut Slash: Double Damage and 1d4 Bleed. Target cannot Swallow Whole.",
+            "Bludgeoning": "Knockback: Double Damage and target is pushed 1d6 squares directly away.",
+            "Piercing": "Deep Hurting: Double Damage and target is Fatigued.",
+            "Magic": "Splash Spell: Normal Damage and Half Damage to all adjacent targets."
+        },
+        {
+            "Slashing": "Flay: Normal Damage plus 1d6 Strength Damage.",
+            "Bludgeoning": "Concussion: Normal Damage and 1d2 Intelligence and Wisdom Damage.",
+            "Piercing": "Infection: Double Damage and target contracts Filth Fever (Fortitude negates).",
+            "Magic": "Corrosive: Double Damage, if Acid spell, target takes 2d6 Acid Damage for 1d4 rounds."
+        },
+        {
+            "Slashing": "Throat Slash: Normal Damage and 2d6 Bleed. Target cannot talk or breathe while bleeding.",
+            "Bludgeoning": "Crumpling Blow: Double Damage and target is knocked Prone.",
+            "Piercing": "Pierced: Double Damage and target is Dazed for 1 round.",
+            "Magic": "Life Leech: Normal Damage and 1 Negative Level (Fortitude negates after 1 day)."
+        },
+        {
+            "Slashing": "Knockback: Double Damage and target is pushed 1d6 squares directly away.",
+            "Bludgeoning": "And Stay Down!: Normal Damage and target is knocked Prone and Stunned for 1 round (Fortitude negates stun).",
+            "Piercing": "Ventilated: Double Damage and 2d6 Nonlethal Damage.",
+            "Magic": "Frozen: Double Damage. If Cold spell, target takes 1d4 Dexterity Damage."
+        },
+        {
+            "Slashing": "Cut Straps: Double Damage and double Armor check Penalty until fixed (DC 15 Craft).",
+            "Bludgeoning": "2 For 1: Double Damage to target and Normal Damage to adjacent target.",
+            "Piercing": "Pinned Arm: Double Damage and one arm cannot move (DC 20 Strength or Heal to be freed).",
+            "Magic": "Electrocuted: Double Damage. If Electricity spell, target Stunned for 1d4 rounds."
+        },
+        {
+            "Slashing": "Overhand Chop: Double Damage and 1d4 Bleed.",
+            "Bludgeoning": "Numbling Blow: Normal Damage and 1d4 Dexterity Damage and target is Disarmed (1 item, Reflex negates drop).",
+            "Piercing": "Sucking Chest Wound: Double Damage and target is Exhausted (Fortitude negates).",
+            "Magic": "Knockback: Double Damage and target is pushed 1d6 squares directly away."
+        },
+        {
+            "Slashing": "Missing Digits: Normal Damage and target loses 1d3 fingers and takes 1 Constitution and Strength drain (Fortitude negates).",
+            "Bludgeoning": "Crushed Toe: Normal Damage and 1d4 Dexterity Damage. Target's land speed is halved until healed.",
+            "Piercing": "Stinger: Normal Damage and target is Sickened for 1d6 rounds.",
+            "Magic": "Arcane Goo: Normal Damage and target is Entangled (DC 20 Strength or Escape Artist to be freed)."
+        },
+        {
+            "Slashing": "Shield Cleave: Double Damage and Normal Damage to target's Shield.",
+            "Bludgeoning": "Earth Rumble: Normal Damage and a free trip attempt versus target and all adjacent enemies.",
+            "Piercing": "Vulnerable Shot: Normal Damage and target takes 1d4 ability Damage of your choice.",
+            "Magic": "Wild Surge: Normal Damage and Normal Damage of a random energy type."
+        },
+        {
+            "Slashing": "Weapon Strike: Normal Damage and Normal Damage to target's weapon.",
+            "Bludgeoning": "Broken Nose: Normal Damage and 1 Charisma Damage and 1 Bleed.",
+            "Piercing": "In A Row: Double Damage to target and Normal Damage to adjacent target.",
+            "Magic": "Nerve Damage: Normal Damage and target is Slowed for 1d6 rounds."
+        },
+        {
+            "Slashing": "Leg Swipe: Double Damage and target is knocked Prone.",
+            "Bludgeoning": "Staggering Blow: Normal Damage and Double Nonlethal Damage.",
+            "Piercing": "Heart Shot: Triple Damage and 1 Constitution Bleed.",
+            "Magic": "Terrifying Display: Normal Damage and target is Frightening for 1d4 rounds (Will negates)."
+        },
+        {
+            "Slashing": "Decapitation: Double Damage and Death (Fortitude negates).",
+            "Bludgeoning": "Thunder Strike: Double Damage and target is Deafened for 1d4 rounds.",
+            "Piercing": "Nailed In Place: Double Damage and target cannot move (DC 20 Strength negates)",
+            "Magic": "Returning Spell: Double Damage and spell is not lost."
+        },
+        {
+            "Slashing": "Bad Parry: Double Damage and target is Disarmed (1 item).",
+            "Bludgeoning": "Low Blow: Normal Damage and target is Sickened for 1d6 rounds.",
+            "Piercing": "Achilles Heel: Normal Damage and 1d2 Dexterity Damage. Target's speeds are reduces by half until healed.",
+            "Magic": "Planar Rift: Normal Damage and target sent to a random plane (Will Negates)."
+        },
+        {
+            "Slashing": "Muscle Wound: Double Damage and 1d2 Strength Damage.",
+            "Bludgeoning": "Shield Smack: Double Damage and target's shield is Disarmed.",
+            "Piercing": "Penetrating Wound: Double Damage and ignore DR.",
+            "Magic": "Intense Strike: Double Damage and ignore Energy Resistance (But not Immunity)."
+        },
+        {
+            "Slashing": "Swing Through: Double Damage and one free attack against an adjacent foe at the same bonus.",
+            "Bludgeoning": "Broken Leg: Normal Damage and 1d4 Constitution and Dexterity Damage. Target's speeds are reduced by half until healed.",
+            "Piercing": "Grazing Hit: Normal Damage and target is Stunned for 1 round.",
+            "Magic": "Maximum Effect: Maximize all spell variables."
+        },
+        {
+            "Slashing": "Flat Blade Thwack: Triple Damage, but all Damage is Nonlethal.",
+            "Bludgeoning": "Armor Dent: Double Damage and 2d6 Damage to metal armor (ignore Hardness).",
+            "Piercing": "Eye Patch For You: Triple Damage and 1d2 Constitution Drain. -4 on Spot, Search, and ranged attacks until healed.",
+            "Magic": "Arcane Glow: Double Damage and target glows like Faerie Fire for 1d6 rounds."
+        },
+        {
+            "Slashing": "Severed Hand: Normal Damage and target loses hand and takes 1d3 Constitution and Strength Drain (Fortitude negates).",
+            "Bludgeoning": "Breathless: Normal Damage and target is Exhausted for 1d4 rounds.",
+            "Piercing": "Spun Around: Normal Damage and target is Flat-Footed for 1 round.",
+            "Magic": "Combustion: Double Damage. If Fire Damage, target catches fire, taking 2d6 Fire Damage per round until extinguished."
+        },
+        {
+            "Slashing": "Shattered Jaw: Normal Damage and 1 Constitution Damage. Target cannot speak or bite until healed.",
+            "Bludgeoning": "Split Open: Double Damage and 1d4 Bleed.",
+            "Piercing": "Left Reeling: Double Damage and target takes a -2 penalty to AC for 1d4 rounds.",
+            "Magic": "Aura Of Protection: Double Damage and +4 to your AC for 1 round."
+        },
+        {
+            "Slashing": "Bewildering Display: Double Damage and target takes a -2 penalty to AC for 1d4 rounds.",
+            "Bludgeoning": "Lights Out: Normal Damage and target is Blinded for 1d3 rounds.",
+            "Piercing": "Bicep Wound: Normal Damage and 1d4 Strength Damage.",
+            "Magic": "Roaring Spell: Double Damage and target is Deafened for 1d4 rounds."
+        },
+        {
+            "Slashing": "Severed Tendon: Normal Damage and 1d6 Dexterity Damage.",
+            "Bludgeoning": "Rattled: Normal Damage and target is Confused for 1d3 rounds (Fortitude negates).",
+            "Piercing": "Guarded Strike: Double Damage and +4 to your AC for 1 round.",
+            "Magic": "Power Surge: Triple Damage."
+        },
+        {
+            "Slashing": "Delayed Wound: Normal Damage and target takes Bleed Damage equal to your normal damage.",
+            "Bludgeoning": "Roundhouse: Normal Damage and a free attack against all adjacent foes at the same bonus.",
+            "Piercing": "Ragged Wound: Normal Damage and 1d8 Bleed.",
+            "Magic": "Concussive Spell: Double Damage and 1d4 Bleed."
+        },
+        {
+            "Slashing": "Sapping Slash: Double Damage and target is Fatigued.",
+            "Bludgeoning": "Flat Foot: Double Damage and 1 Dexterity damage and target's sppeds reduced by 5 feet until healed.",
+            "Piercing": "Perfect Strike: Triple Damage.",
+            "Magic": "Light Blast: Double Damage and target is Blinded for 1 round."
+        },
+        {
+            "Slashing": "Parrying Strike: Double Damage and +4 to your AC for 1 round.",
+            "Bludgeoning": "Solid Blow: Triple Damage.",
+            "Piercing": "Tenacious Wound: Normal Damage and 1d2 Constitution Damage. Target does not heal this damage naturally.",
+            "Magic": "Phased: Double Damage and target is Incorporeal for 1d3 rounds (Will negates)."
+        },
+        {
+            "Slashing": "Spun Around: Normal Damage and target is Flat-Footed for 1 round.",
+            "Bludgeoning": "Tiring Blow: Double Damage plus target is Fatigued.",
+            "Piercing": "Leg Wound: Double Damage and target's speed is halved for 1d4 rounds.",
+            "Magic": "Time Vortex: Normal Damage and target Vanishes, reappearing in 1d4 rounds."
+        },
+        {
+            "Slashing": "Wing Tear: Double Damage and target loses flight if it uses wings.",
+            "Bludgeoning": "Spun Around: Normal Damage and the target is Flat-Footed for 1 round.",
+            "Piercing": "Organ Scramble: Double Damage abd 1d6 Constitution Damage.",
+            "Magic": "Elemental Call: Normal Damage. If Elemental spell, Medium Elemental appears to serve for 1d4 rounds."
+        },
+        {
+            "Slashing": "Brow Cut: Normal Damage and 1d4 Bleed. Target is Blinded while Bleeding.",
+            "Bludgeoning": "Back Breaker: Double Damage and 1d6 Dexterity Damage.",
+            "Piercing": "Deep Wound: Double Damage and target is Nauseated for 1 round (Fortitude negates).",
+            "Magic": "Dispelling Aura: Normal Damage and Dispel Magic on the target."
+        },
+        {
+            "Slashing": "Disembowel: Double Damage and 1d4 Constitution Damage and 1d6 Bleed.",
+            "Bludgeoning": "I See Stars: Normal Damage and target takes a 20% miss chance for 1d4 rounds.",
+            "Piercing": "Pinhole: Double Damage and 1 Bleed. Target takes 1 additional bleed each round until healed.",
+            "Magic": "conduit: Double Damage and target takes a -4 penalty on saves versus your spells for 1d6 rounds."
+        },
+        {
+            "Slashing": "Stand Aside: Double Damage and push target 1 square in any direction.",
+            "Bludgeoning": "Shattered Hand: Normal Damage and 1d2 Constitution and Strength Damage. Hand useless until healed.",
+            "Piercing": "Right In The Ear: Normal Damage and 1 Intelligence Damage and 1 Bleed.",
+            "Magic": "Vampiric Magic: Normal Damage. You are healed for the same amount."
+        },
+        {
+            "Slashing": "Momentum: Double Damage and +2 on all your attack rolls for 1 round.",
+            "Bludgeoning": "Bell Ringer: Normal Damage and 1d2 Intelligence Damage and Sickened for 1d4 rounds.",
+            "Piercing": "Appendicitis: Double Damage and target is poisoned (Treat as Greenblood Oil).",
+            "Magic": "Petrified: Normal Damage and target is Petrified for 1d4 hours (Fortitude negates)."
+        },
+        {
+            "Slashing": "Tangled: Double Damage and you may automaticall Grapple the target.",
+            "Bludgeoning": "Momentum: Double Damage and +2 on all your attack rolls for 1 round.",
+            "Piercing": "Blown Back: Double Damage and target is knocked Prone.",
+            "Magic": "Pretty Colors: Double Damage and target is Dazzled for 1d4 rounds."
+        },
+        {
+            "Slashing": "Gory: Normal Damage and target is Sickened for 1d6 rounds.",
+            "Bludgeoning": "Cracked Rib: Normal Damage and 1d3 Constitution Damage and target is Fatigued.",
+            "Piercing": "Momentum: Double Damage and +2 on all your attack rolls for 1 round.",
+            "Magic": "Stunned: Normal Damage and target is Stunned for 1 round."
+        },
+        {
+            "Slashing": "Hamstring: Normal Damage and 1d2 Dexterity Damage and target is knocked Prone.",
+            "Bludgeoning": "Feeble Parry: Double Damage and target is Disarmed (1 item).",
+            "Piercing": "Shoulder Wound: Double Damage and 1d2 Strength and Dexterity Damage.",
+            "Magic": "Cut Off From Magic: Normal Damage and target cannot cast spells or use spell-like abilities for 1d4 rounds."
+        },
+        {
+            "Slashing": "Brow To Chin: Normal Damage and 1 Constitution and Charisma Damage. -2 penalty on Spot, Search, and ranged attacks until healed.",
+            "Bludgeoning": "Surprise Opening: Double Damage and one free attack against the target with a -5 penalty.",
+            "Piercing": "Tongue Piercing: Normal Damage and 1 Constitution Damage. Target gains 50% spell failure chance for verbal spells until healed.",
+            "Magic": "Olfactory Overload: Double Damage and target loses Scent and Blindsense for 1 day."
+        },
+        {
+            "Slashing": "Missing Ear: Normal Damage and 1 Charisma Drain. -4 penalty on Listen checks until healed.",
+            "Bludgeoning": "Where Am I?: Normal Damage and target is Stunner for 1 round.",
+            "Piercing": "Surprise Opening: Double Damage and one free attack against the target with a -5 penalty.",
+            "Magic": "Mind Cloud: Double Damage and target is Dazed for 1 round."
+        },
+        {
+            "Slashing": "Ugly Wound: Normal Damage and 1d3 Charisma Damage and 1 Charisma Drain (Fortitude negates drain).",
+            "Bludgeoning": "Cracked Knee: Normal Damage and 1d2 Dexterity Damage. Target's base land speed reduced to 10 until healed.",
+            "Piercing": "Calf Hole: Normal Damage and 1d4 Dexterity Damage.",
+            "Magic": "Side Effect: Double Damage and you become Invisible for 1d4 rounds."
+        },
+        {
+            "Slashing": "Fingertipped: Normal Damage and 1 Dexterity Damage. Target cannot use one hand until healed.",
+            "Bludgeoning": "Brained: Double Damage and target can take only one move or standard action next round.",
+            "Piercing": "Kidney Piercing: Double Damage and target is Sickened for 2d4 rounds (Fortitude negates).",
+            "Magic": "Eyeburn: Normal Damage and target Blinded for 1d4 rounds (Fortitude negates)."
+        },
+        {
+            "Slashing": "Hack And Slash: Double Damage and all critical threats against the target automatically confirm for the next 3 rounds.",
+            "Bludgeoning": "Off Balance: Normal Damage and target provokes Attacks of Opportunity from all threatening opponents.",
+            "Piercing": "Chipped Bone: Double Damage and 1 Dexterity Damage.",
+            "Magic": "Shrink Ray: Normal Damage and target is Reduced for 3 rounds (As Reduce Person, Will negates)."
+        },
+        {
+            "Slashing": "Carve Your Initials: Normal Damage and target suffers from Humiliation and may only attack you (Will negates).",
+            "Bludgeoning": "What's Going On?: Double Damage and 1d4 hours of target's memory erased.",
+            "Piercing": "Nicked An Artery: Normal Damage and 2d6 Bleed.",
+            "Magic": "Distraction: Double Damage and an illusion appears to attack the foe, flanking them for you for 1d6 rounds."
+        },
+        {
+            "Slashing": "Lip Cut: Double Damage and 1 Bleed. Target gains 20% spell failure chance for verbal spells until healed.",
+            "Bludgeoning": "Box The Ears: Normal Damage and target is Deafened for 1d4 hours.",
+            "Piercing": "Javelin Catcher: Double Damage and 1d6 Bleed if from ranged attack.",
+            "Magic": "Call Of The Wild: Double Damage or Triple Damage to Animals, Fey, Magical Beasts, and Vermin."
+        },
+        {
+            "Slashing": "Wide Open: Normal damage and target provokes Attacks of Opportunity from all threatening opponents.",
+            "Bludgeoning": "To Your Thinky Bits: Double Damage and 1 Intelligence Bleed (Fortitude negates, save each round).",
+            "Piercing": "Clean Through: Normal Damage and 1d6 Bleed and 1 Constitution Drain.",
+            "Magic": "Hoarder's Wrath: Double Damage or Triple Damage to Dragons."
+        },
+        {
+            "Slashing": "Paper Cut: Normal Damage and -4 penalty on attack rolls, skill checks, and ability checks for 1d4 rounds.",
+            "Bludgeoning": "Mace To Da Face: Normal Damage and target is Dazed and Blinded for 1 round.",
+            "Piercing": "Overreaction: Normal Damage and target provokes Attacks of Opportunity from all threatening opponents.",
+            "Magic": "Unnatural Selection: Double Damage or Triple Damage to Aberrations and Outsiders."
+        },
+        {
+            "Slashing": "Broad Swipe: Normal Damage and 1d8 Bleed.",
+            "Bludgeoning": "Skull Crush: Double Damage and 2d6 Intelligence Drain (Fortitude halves).",
+            "Piercing": "Hand Wound: Normal Damage and 1d2 Dexterity Damage. -4 Penalty on all rolls using that hand until healed.",
+            "Magic": "Lingering Magic: Normal Damage this round and Half Damage each round for 1d4 rounds."
+        }
+    ]},
+    "Miss": {
+        "Cards": [
+            {
+                "Melee": "Overextend: You provoke an Attack of Opportunity from all adjacent opponents.",
+                "Ranged": "Aching Back: You are Fatigued.",
+                "Natural": "Upset Tummy: You are Sickened for 1d4 rounds",
+                "Magic": "Backblast: The attack hits you and is a critical threat. You must roll to confirm the critical hit."
+            },
+            {
+                "Melee": "Critical Mistake: The attack hits you and is a critical threat. You must roll to confirm the critical hit.",
+                "Ranged": "Whoops!: You are knocked Prone.",
+                "Natural": "Out Of Position: You cannot use this attack for 1 round.",
+                "Magic": "Mind Drain: You take 1d4 points of Damage to Intelligence, Wisom, or Charisma (determined randomly)."
+            },
+            {
+                "Melee": "Off-Balance: You take a -4 penalty on all attack rolls for 1 round.",
+                "Ranged": "Friendly Fire: Your attack hits your ally closest to the target.",
+                "Natural": "Broke A Nail: You take 1d4 points of damage and you cannot use this attack until healed.",
+                "Magic": "Power Drain: You lose one prepared spell or spell slot (determined randomly)."
+            },
+            {
+                "Melee": "Pin Prick: You take 1 point of Bleed.",
+                "Ranged": "Spilled Ammo: Your ammunition falls from its container and takes 1d6 rounds to gather up.",
+                "Natural": "Just A Taste: Your attack hits an ally adjacent to you or the target.",
+                "Magic": "Tiring Spell: You are Fatigued."
+            },
+            {
+                "Melee": "Wide Open: You are Flat-Footed for 1 round.",
+                "Ranged": "Cracked: Your weapon takes 1d6 points of Damage, ignoring Hardness.",
+                "Natural": "Fist Meets Face: The attack hits you and is a critical threat. You must roll to confirm the critial hit.",
+                "Magic": "Distance Rift: You are teleported to the nearest square adjacent to the target."
+            },
+            {
+                "Melee": "Pulled Muscle: You take 1d4 points of Strength Damage.",
+                "Ranged": "Awkward Attack: You take a -2 penalrt to AC for 1d4 rounds.",
+                "Natural": "I Bit My Tug: You take 1 point of Bleed.",
+                "Magic": "Arcane Fire: You take 2d6 points of Fire Damage."
+            },
+            {
+                "Melee": "Fling: You drop your weapon and it lands 1d6 squares away in a random direction.",
+                "Ranged": "Head Rush: You are Sickened for 1d4 rounds.",
+                "Natural": "Overextend: You provoke an Attack of Opportunity from all adjacent opponents.",
+                "Magic": "Reflection: The spell hits you instead of the target (normal saves apply)."
+            },
+            {
+                "Melee": "Backswing: The attack deals Damage to you instead of the target.",
+                "Ranged": "Wide Open: You are Flat-Footed for 1 round.",
+                "Natural": "Tripped: You are knocked Prone.",
+                "Magic": "Tangled: You become Entangled in your gear until you spend a standard action to free yourself."
+            },
+            {
+                "Melee": "I Told You It Was Sharp: You take 1d6 points of Bleed.",
+                "Ranged": "Klutz: You drop your weapon.",
+                "Natural": "Stop Hitting Yourself!: The attack deals damage to you instead of the target.",
+                "Magic": "Not Me, You Fool!: Your attack hits your ally closest to the target."
+            },
+            {
+                "Melee": "Spinning Swing: You are Sickened for 1d4 rounds.",
+                "Ranged": "Nicked: You take 1 point of Bleed.",
+                "Natural": "Twisted: You become Entangled in your gear until you spend a standard action to free yourself.",
+                "Magic": "Apprentice Move: Reroll attack against creature nearest to the target (excluding yourself)."
+            },
+            {
+                "Melee": "Slipped: You are knocked Prone.",
+                "Ranged": "Backfire: The attack deals damage to you instead of the target.",
+                "Natural": "Bruised Ego: You can attack no other target for 1d4 rounds (or until the target is dead).",
+                "Magic": "Nose Bleed: You take 1 point of Bleed."
+            },
+            {
+                "Melee": "Broken Blade: Your weapon is Destroyed (Reflex negates). Magic weapons use their own save bonus.",
+                "Ranged": "My Spleeny Bits: You take 1 point of Constitution Damage.",
+                "Natural": "Frustration: You take a -4 penalty on all attack rolls for 1 round.",
+                "Magic": "Monster Rift: Your spell is concerted to a summon monster spell of the same level. The monster attacks you."
+            },
+            {
+                "Melee": "Too Much Stuff!: You become Entangled in your gear until you spend a standard action to free yourself.",
+                "Ranged": "Sprain: You take 1d4 points of Dexterity Damage.",
+                "Natural": "Bleeding Fist: You take 1d6 points of Bleed.",
+                "Magic": "Vertigo: You are Sickened for 1d4 rounds."
+            },
+            {
+                "Melee": "This Sword Is Heavy: You are Fatigued.",
+                "Ranged": "Errant Aim: Reroll attack against creature nearest to the target (excluding yourself).",
+                "Natural": "Awkward Attack: You take a -2 penalty to AC for 1d4 rounds.",
+                "Magic": "Bleeding Eyes: You take 1d6 points of Bleed."
+            },
+            {
+                "Melee": "Butterfingers: You drop your weapon.",
+                "Ranged": "Snapped String: If the attack was made with a Bow or Crossbow, the string breaks and requires 1d3 rounds to fix.",
+                "Natural": "Torn Muscle: You take 1 point of Strength Drain (Fortitude negates).",
+                "Magic": "Magic Fatigue: You cannot cast any spells for 1 round."
+            },
+            {
+                "Melee": "Strain: You take 1d4 points of Dexterity Damage.",
+                "Ranged": "Tied Up: You become Entangled in your gear until you spend a standard action to free yourself.",
+                "Natural": "Wide Open: You are Flat-Footed for 1 round.",
+                "Magic": "Cold Snap: You take 2d6 points of Cold Damage."
+            },
+            {
+                "Melee": "Awkward Attack: You take a -2 penalty to AC for 1d4 rounds.",
+                "Ranged": "You'll Shoot Your Eye Out: The attack hits you and is a critical threat. You must roll to confirm the critical hit.",
+                "Natural": "Tiring Attack: You are Fatigued.",
+                "Magic": "Acidic Backlash: You take 2d6 points of Acid Damage."
+            },
+            {
+                "Melee": "Notched: Your weapon takes 1d6 points of damage, ignoring Hardness.",
+                "Ranged": "Notched Fingers: You take 1d6 points of Bleed.",
+                "Natural": "Muscle Tear: You take 1d4 points of Strength Damage.",
+                "Magic": "Electrical Feedback: You take 2d6 points of Electricity Damage."
+            },
+            {
+                "Melee": "Sorry: Your attack hits an ally adjacent to you or the target.",
+                "Ranged": "Lost The Target: You take a -4 penalty on all attack rolls for 1 round.",
+                "Natural": "Sprain: You take 1d4 points of Dexterity Damage.",
+                "Magic": "Weakened: You take a -2 penalty to all of your spell DCs for 1d4 minutes."
+            },
+            {
+                "Melee": "Catch Your Breath: You can only take a move action next round.",
+                "Ranged": "Wrong Weapon: If you made a thrown attack, you throw a random object from your gear.",
+                "Natural": "Got Too Close: Your attack hits the target but the target may start a grapple against you for free.",
+                "Magic": "You Made Him Stronger: The target gains a +8 Enchantment Bonus to Strength for 1d4 rounds."
+            },
+            {
+                "Melee": "All Or Nothing: You take a -1 penalty on attack rolls until you score a critical hit.",
+                "Ranged": "Close To The Ear: You are Deafened until healed (DC 15 Heal check).",
+                "Natural": "Pins And Needles: You are Sickened for 1d6 rounds.",
+                "Magic": "Why Me?: You provoke Attacks of Opportunity from all threatening foes."
+            },
+            {
+                "Melee": "Surrounded By Foes: Your attack hits an ally within reach and is a critical threat. You must roll to confirm the critical hit.",
+                "Ranged": "Insecure: You take a -1 penalty on attack rolls for 1d4 days or until you score a critical hit.",
+                "Natural": "Great Roar: You are Deafened until healed (DC 15 Heal check).",
+                "Magic": "Error!: The attack deals damage to you instead of the target."
+            },
+            {
+                "Melee": "Armor Smash: Your attack deals damage to your armor.",
+                "Ranged": "Lost Grip: You can only take a move action next round.",
+                "Natural": "Battered: You take a -2 penalty on skill checks and saves for 1d4 hours.",
+                "Magic": "Unexpected Blast: The spell affects all targets within 30 feet of you. You are immune to this effect."
+            },
+            {
+                "Melee": "Bonk: You are Stunned for 1 round (Fortitude negates).",
+                "Ranged": "Shot Your Foot: You take 1d2 points of Dexterity Damage and your speed is reduced by half until healed.",
+                "Natural": "Overexertion: You are Exhausted (Fortitude negates).",
+                "Magic": "Side Effect: One of your magic items permanently gains a random Drawback."
+            },
+            {
+                "Melee": "No Way: Your attack hits the target, but deals Minimum Damage.",
+                "Ranged": "Amazing Miss: You are Stunned for 1 round (Fortitude negates).",
+                "Natural": "Bone Bruise: You take 1d2 points of Constitution Damage.",
+                "Magic": "You Made Him Bigger: Target increases by one size category for 1d4 rounds."
+            },
+            {
+                "Melee": "This Is Bad: You take an amount of Bleed equal to your Strength Bonus (minimum 1).",
+                "Ranged": "What Are The Odds: If you made a thrown attack, you hit the target, but the weapon ends up in the target's possession.",
+                "Natural": "Whirlwind Of Shame: Your attack deals damage to all targets adjacent to you except the original target.",
+                "Magic": "Jumbled Components: You can only take a move action next round."
+            },
+            {
+                "Melee": "On The Receiving End: The attack deals damage to you instead of the target.",
+                "Ranged": "In The Line Of Fire: Your attack hits the nearest ally and is a critical threat. You must roll to confirm the critical hit.",
+                "Natural": "Head, Meet Wall: You are Dazed for 1d3 rounds.",
+                "Magic": "Can You Hear Me Now?: You are Deafened until healed (DC 15 Heal check)."
+            },
+            {
+                "Melee": "Bohemian Earspoon: You are Deafened until healed (DC 15 Heal check).",
+                "Ranged": "Lowered Guard: You provoke Attacks of Opportunity from all threatening foes.",
+                "Natural": "Ferocious Fumble: Your attack hits an ally within reach and is a critical threat. You must roll to confirm the critical hit.",
+                "Magic": "The Magic Is Gone: You take a -1 penalty on attack rolls until you score a critical hit."
+            },
+            {
+                "Melee": "Hand It Over: Your target gains possession of your weapon (Reflex negates).",
+                "Ranged": "Broken: Your weapon is destroyed (Reflex negates). Magic weapons use their own save bonus.",
+                "Natural": "Smash The Floor: You kick up dust that Blinds you for 1d4 rounds (Fortitude negates).",
+                "Magic": "You Made Him Faster: The target is Hasted for 1d4 rounds."
+            },
+            {
+                "Melee": "Funny Bone: You drop whatever is in your off hand.",
+                "Ranged": "Not My Pony: Your attack hits the nearest allied animal or mount.",
+                "Natural": "Bad Headbutt: You are Stunned for 1 round (Fortitude negates).",
+                "Magic": "Caster's Block: You cannot cast this spell for 24 hours."
+            },
+            {
+                "Melee": "Bent: You take a -4 penalty on all attacks with this weapon until it is repaired (DC 20 Craft check).",
+                "Ranged": "Double Miss: You use twice as much ammunition on this attack.",
+                "Natural": "Caught Your Attack: The target may attempt to Trip, Bull Rush, or Overrun you (target's choice).",
+                "Magic": "Left Reeling: You are Stunned for 1 round."
+            },
+            {
+                "Melee": "Shield Crash: Your attack deals damage to your shield.",
+                "Ranged": "Everything You Got: You are Exhausted (Fortitude negates).",
+                "Natural": "He's Sharp: You take 1d6 points of Damage + Your Strength Modifier.",
+                "Magic": "You Made Him Tougher: The target gains DR 5/- for 1d4 rounds."
+            },
+            {
+                "Melee": "Better To Give: Your attack damages you instead. Use your target's Strength Modifier.",
+                "Ranged": "Weapon Jam: If using a projectile weapon it does not function. Spend 1 standard action to clear.",
+                "Natural": "Sneeze!: You are Dazed for 1 round.",
+                "Magic": "Hit By The Ugly Forest: You take 1 point of Charisma Bleed."
+            },
+            {
+                "Melee": "Cutter: You take 1 point of Strength Bleed.",
+                "Ranged": "Um, Oops: The attack deals damage to you instead of the target.",
+                "Natural": "Ingrown Nail: You take a -1 penalty on attack rolls until you score a critical hit.",
+                "Magic": "Clatto Verata Necktie: Your attack hits the nearest ally and is a critical threat. You must roll to confirm the critical hit."
+            },
+            {
+                "Melee": "Winded: You are Exhausted (Fortitude negates).",
+                "Ranged": "Bad Alignment: You take a -4 penalty on all attacks with this weapon until repaired (DC 20 Craft Check).",
+                "Natural": "He Bit Your Fist: The target deals Bite damage to you.",
+                "Magic": "Poor Trade: The attack hits but you must lose a spell or slot of the highest available level (your choice)."
+            },
+            {
+                "Melee": "Stuck: Your weapon is stuck in a nearby surface. DC 20 Strength check to free it.",
+                "Ranged": "Archer's Elbow: You take a -2 penalty on all ranged attack rolls for 1d4 minutes.",
+                "Natural": "Off Balance: You can only take a move action next round.",
+                "Magic": "Spell Shield: The target gains SR equal to 11 + Your Caster Level for 1d6 rounds."
+            },
+            {
+                "Melee": "Attack The Darkness: All your enemies have Concealment from you for 1d4 rounds.",
+                "Ranged": "Aim Carefully Next Time: For 3 rounds, you must spend a full-round action to make a single attack.",
+                "Natural": "Brutal Collision: Your attack hits, but you are Stunned for 2 rounds (Fortitude save reduces the Stun to 1 round).",
+                "Magic": "Power Transfer: The highest-level spell effect on you is transferred to your target."
+            },
+            {
+                "Melee": "Wait! What?: You are Confused for 1 round.",
+                "Ranged": "Don't Hit Me!: For 3 rounds, you take an additional -2 penalty on ranged attacks for each ally in melee combat with your target.",
+                "Natural": "Pinched Nerve: If you had reach greater than 5 feet, it is reduced to 5 feet for 3 rounds.",
+                "Magic": "Mental Slip: On their next turn, your target may give you one Suggestion."
+            },
+            {
+                "Melee": "Wrong End: If you're using a slashing weapon, you take 1d6 points of damage and 1 point of Bleed.",
+                "Ranged": "Phantom Wind: You compensate for a breeze which isn't there. You take a -2 penalty on ranged attack rolls for 3 rounds.",
+                "Natural": "Overthink It: Your target's Armor and Natural Armor Bonuses are doubled against you for 3 rounds.",
+                "Magic": "Power Down: You take 1 point of Intelligence Bleed."
+            },
+            {
+                "Melee": "Vibration: If you're using a bludgeoning weapon, you take 1d3 points of Strength Damage and drop your weapon.",
+                "Ranged": "Recoil: You move backward 1 square and fall Prone.",
+                "Natural": "Punctured Foot: You take 1d3 points of damage and your speed is halved until healed.",
+                "Magic": "Weak-Minded Fool: You take 1 point of Wisdom Bleed."
+            },
+            {
+                "Melee": "Second Thought: You are Sickened for 1d6 rounds.",
+                "Ranged": "Mix It Up: You are unable to make ranged attacks for the next 1d6 rounds.",
+                "Natural": "Hangnail: If this was a claw attack, slam, or unarmed strike, you cannot use that attack for 1d6 rounds.",
+                "Magic": "Magical Vacuum: 1d3 spell effects active on you are Dispelled (determined randomly)."
+            },
+            {
+                "Melee": "Eat Dirt: You fall Prone and are Blinded for 1d3 rounds (Fortitude negates).",
+                "Ranged": "Overcompensate: All targets with Cover gain an additional +4 bonus to AC against you for 3 rounds.",
+                "Natural": "That Tastes Awful!: If this was a bite attack, you are Nauseated for 1d6 rounds.",
+                "Magic": "Energy Transfer: Lose one randomly determined spell or spell slot. Your target can cast this spell next round."
+            },
+            {
+                "Melee": "You Meant To Do That: Move 10 feet in a random direction and provoke Attacks of Opportunity as normal.",
+                "Ranged": "Misjudged The Distance: All attack rolls beyonf the first range increment have triple the normal distance penalty for 3 rounds.",
+                "Natural": "Not The Weak Point: Your enemy's armor takes 1d6 points of damage. You take 1d6 points of damage and cannot use that attack for 1d3 rounds.",
+                "Magic": "How Did That Happen?: A Stinking Cloud appears, centered on you."
+            },
+            {
+                "Melee": "Who Was That: You are Dazed for 1d3 rounds.",
+                "Ranged": "Seeing Double: All your attacks have a 50% miss chance for 1 round.",
+                "Natural": "Broken Tooth: You have -2 penalty on attack rolls for 1d6 minutes.",
+                "Magic": "Fragmented Magic: 1d4+2 Mirror Images spring up around your target. These images last for 1 minute or until destroyed."
+            },
+            {
+                "Melee": "Bad Grip: Your weapon deals Nonlethal Damage for the next 3 rounds.",
+                "Ranged": "Huh?: You are Confused for 1 round.",
+                "Natural": "Eye Strain: You are Blinded for 1 round.",
+                "Magic": "Blastoff: You are thrown 1d6x10 feet into the air (or in a random direction if flying)(Will negates)."
+            },
+            {
+                "Melee": "Punt: Your weapon flies 2d6 squares in a random direction.",
+                "Ranged": "So Much Blood: You are Sickened for 1d6 rounds.",
+                "Natural": "Unintentional Move: Move 10 feet in a random direction and provoke Attacks of Opportunity as normal.",
+                "Magic": "It's Sparkly: You are Blinded for 1 round."
+            },
+            {
+                "Melee": "Parry! Dodge! Spin! Thrust!: You are Dazed for 1 round.",
+                "Ranged": "Torn Tendon: You take 1 point of Dexterity Bleed.",
+                "Natural": "Stinging Failure: You take 1d6 points of Nonlethal Damage and a -2 penalty on attack rolls with that attack for 1d4 rounds.",
+                "Magic": "Cursed: You take a -4 penalty on attack rolls, saves, skill checks, and ability checks. This effect can only be cured with Remove Curse."
+            },
+            {
+                "Melee": "Catastrophic Failure: You fall Unconscious for 1d6 rounds (Will negates).",
+                "Ranged": "Overthrow: If attack was made with a thrown weapon, the weapon travels 5 times its range increment in a random direction.",
+                "Natural": "Don't Pick At It: You take 1 point of Constitution Damage.",
+                "Magic": "Magical Smackdown: You automatically fail your next saving throw."
+            },
+            {
+                "Melee": "Pointy End Goes There: You take 1 point of Constitution Damage.",
+                "Ranged": "Tunnel Vision: For the next 3 rounds, you have a +1 bonus to attack rolls, but you are Flat-Footed.",
+                "Natural": "We Have A Wiener: You fall Unconscious for 1d6 rounds (Will negates).",
+                "Magic": "Wild Magic: Roll twice on the Rod of Wonder table."
+            },
+            {
+                "Melee": "Broken Haft: Your weapon loses Reach. You have a -4 penalty on attack rolls with it until repaired (DC 20 Craft check).",
+                "Ranged": "All Thumbs: You lose your Dexterity bonus on attack rolls for 3 rounds.",
+                "Natural": "Whiff: The attack deals damage to you instead of the target.",
+                "Magic": "This Is Hard: You take 1 point of Constitution Damage."
+            },
+            {
+                "Melee": "Go For The Eyes: You are Blinded for 1 round.",
+                "Ranged": "Pinch In The Parts: You take 1d6 points of damage.",
+                "Natural": "Winds Of Change: You threaten no squares for 1d6 rounds.",
+                "Magic": "Now I See You...: Your target becomes Invisible for 1d4 rounds."
+            },
+            {
+                "Melee": "Fog Of War: You threaten no squares for 1d6 rounds.",
+                "Ranged": "Bull's Eye: Your shot ricochets and hits you near the eye. You are Blinded for 1 round.",
+                "Natural": "Jam A Finger: Your target takes Normal Damage, but you take Double Damage.",
+                "Magic": "Nothing To Fear: You are Shaken for 2d4 rounds."
+            }
+        ]
+    }
+}
